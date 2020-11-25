@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style type="text/css">
+        #temporizador {
+            font-size: 50pt;
+            margin: 70px auto;
+            width: 100px;
+        }
+    </style>
+    <title>U-Safety</title>
+</head>
+
+<!--<body class="bg-light" background="./images/fondo2.jpg">-->
+
+<body bgcolor="90C6C1">
+    <br>
+    <div class="container">
+        <h1 align="center">U-Safety<span id="titulo"></span></h1>
+        <div align="center" id="fila_imagenes" class="row">
+            <div class="col-md-12">
+                <img src="./images/cajaLoto.jpg" class="img-fluid fadeEjercicico" alt="" width="700" height="500"
+                    background-color: rgb(204,13,13)>
+                <div align="center" id="textoCaja"
+                    style="padding:10px 10px 10px 10px; background-color:rgb(204, 13, 13); color:#fff;">
+                    CAJA LOTO
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="./images/seguridad.jpg" class="img-fluid" style="display: none;" alt="" width="700"
+                    height="500">
+                <div align="center" id="textoSeguridad"
+                    style="padding:10px 10px 10px 10px; background-color:rgb(13, 32, 204); color:#fff;display: none;">
+                    SEGURIDAD DIGITAL
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="./images/automatizacion.jpg" class="img-fluid" style="display: none;" alt="" width="700"
+                    height="500">
+                <div align="center" id="textoAutomatizacion"
+                    style="padding:10px 10px 10px 10px; background-color:rgb(46, 51, 49); color:#fff;display: none;">
+                    AUTOMATIZACIÓN
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row" align="center">
+            <div class="col-md-12">
+                <button onclick="ftnMostrarAnterior();" class="btn btn-dark">
+                    <== </button>
+                        <button class="btn btn-dark" onclick="ftnMostrarSiguiente();"> ==> </button>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-9" style="">
+                <h2 align="center">Caja LOTO<span id="titulo"></span></h2>
+                <br>
+                <center>Lockout Tagout, o su acrónimo LOTO, es un procedimiento de seguridad para desconectar y
+                    consignar las distintas fuentes de energía de los equipos industriales, mientras las operaciones de
+                    mantenimiento, limpieza o reparación se llevan a cabo. El procedimiento LOTO protege a los
+                    trabajadores tanto de una puesta en marcha accidental de las energías vivas como de las energías
+                    residuales y de un encendido imprevisto que pueda provocar un accidente durante
+                    un servicio de mantenimiento o aislamiento (cortes, atrapamientos, quemaduras, electrocución, etc.).
+                </center>
+                <br><br>
+                <center>Su funcionamiento consiste en que el supervisor usa un solo trabajo de bloqueo para cada punto
+                    de control de energía para bloquear el equipo. Las llaves para los trabajos de bloqueo son colocados
+                    en una caja de bloqueo. Cada trabajador coloca su propio candado en la caja de bloqueo. Mientras
+                    haya un candado dentro de la caja de bloqueo, no se podrá tener acceso a las llaves de los trabajos
+                    de bloqueo, y los dispositivos para aislamiento de energía no pueden ser operados.</center>
+                <br><br>Pasos:
+                <br><br>
+                <ol>
+                    <li><b>Bloqueo:</b> Se asegura que el elemento queda desenergizado, que se corta el paso a la
+                        energía viva.</li>
+                    <li><b>Consignación:</b> dispositivo físico que asegura la no puesta en marcha de la energía
+                        y que solamente podrá ser retirado por el usuario o usuarios que lo hayan bloqueado.</li>
+                    <li><b>Señalización:</b> es importante añadir una etiqueta en el punto de bloqueo con los
+                        datos de la persona responsable de la consignación.</li>
+                </ol>
+                <br><br>
+                <center>Las cajas de bloqueo son ideales para los grupos encargados de tareas de mantenimiento que
+                    trabajen
+                    por turnos, con horarios escalonados o mediante subcontrata. Las cajas de bloqueo sirven para
+                    guardar
+                    hasta 12 candados de consignación, llaves, etiquetas y demás elementos del equipo necesarios durante
+                    las operaciones de reparación, mantenimiento o supervisión de la maquinaria.
+                    <br><br>
+                    <b>Candados:</b>
+                    Un candado de consignación brinda una medida de seguridad más allá de la que ofrece un candado
+                    común. Si se usa adecuadamente, junto con un proceso de bloqueo bien planificado, el candado de
+                    seguridad impide que los empleados activen accidentalmente el equipo mientras alguien está
+                    trabajando o manipulando la instalación.
+                    <br>
+                    <center><img src="./images/candadoLoto.png" class="img-fluid fadeEjercicico" alt="" width="350"
+                            height="350"></center>
+                    <br><b>Pinzas múltiples:</b>
+                    Permiten añadir más candados a un bloqueo y, por lo tanto, son recomendables en trabajos
+                    grupales, cuando hay más personas trabajando en el mismo punto de bloqueo.
+                    <br><br>
+                    <center><img src="./images/pinzaMultiple.jpg" class="img-fluid fadeEjercicico" alt="" width="500"
+                            height="400"></center>
+                    <br><b>Etiquetas:</b>
+                    Las etiquetas identificativas o tags permiten la señalización visual y nos indican la persona
+                    que ha realizado la consignación. Disponemos de etiquetas estándar y personalizadas.
+                    <br>
+                    <center><img src="./images/tag.jpg" class="img-fluid fadeEjercicico" alt="" width="350"
+                            height="500">
+                    </center>
+                    <br><br>
+                    <h2 align="center">IoT y Automatización<span id="titulo"></span></h2>
+                </center>
+                <br>
+                <center>IoT es la agrupación e interconexión de dispositivos y objetos a través de una red, dónde
+                    todos ellos pueden interaccionar y ser visibles. Estos objetos pueden ser sensores,
+                    dispositivos mecánicos o objetos cotidianos. El objetivo principal del IoT es la interacción de
+                    máquina a máquina, sin la intervención de un humano.
+                    Esta tecnología asociada al IoT permite almacenar datos y mandarlos a la red para la
+                    realización de su análisis.
+                    <br><br>
+                    Automatización se refiere a una amplia variedad de sistemas y procesos que operan con mínima
+                    o nula intervención humana. En los procesos de automatizacion el control de las máquinas es
+                    realizado por ellas mismas gracias a sensores de control que le permiten percibir cambios en sus
+                    alrededores de ciertas condiciones tales como temperatura, volumen y fluidez de la corriente
+                    eléctrica y otros, sensores que permiten a la máquina realizar ajustes necesarios para compensar
+                    estos cambios.
+                </center>
+                <br><br>
+                <h2 align="center">U-Safety<span id="titulo"></span></h2>
+                <center>
+                    La idea principal para U-Safety es lograr la implementación de un sistema automatizado conjunto
+                    al sistema de seguridad que se está utilizando mucho actualmente y que es conocido como la caja
+                    LOTO, para poder brindar mayor seguridad a los empleados de industrias contra accidentes y al
+                    mismo tiempo tener un mayor control de sus actividades cotidianas, para poder medir el rendimiento
+                    que cada uno tiene en las actividades de la empresa.
+                    <br><br>Esto se logra mediante la implementación de IoT, la automatización y el análisis de datos
+                    para la monitorización. Se automatizo todo el proceso del uso de la caja LOTO, desde del proceso de
+                    solicitud de permisos y el mejorar la misma seguridad de la caja y posteriormente integramos el
+                    análisis de datos y la monitorización en el software Grafana, tan necesaria para el manejo de
+                    cualquier negocio o empresa hoy en día.
+                    <br><br>Se hace uso de la placa Raspberry Pi como el dispositivo IoT, integrado con un programa
+                    diseñado en el software Node-red y Grafana.
+                </center>
+
+                <br><br>
+                <h2 align="center">Ventajas de U-Safety<span id="titulo"></span></h2>
+                <br>
+                <ul>
+                    <li><b>Escalabilidad:</b> Al ser un proyecto en el que se integra el internet de las cosas, el
+                        proyecto tiene la capacidad de crecer a niveles en los que incluso se puede monitorear el
+                        funcionamiento de la mayor parte del proceso de producción de las industrias.</li>
+                    <br>
+                    <li><b>Versatilidad:</b> Una de las mayores fortalezas del proceso de desarrollo de U-Safety
+                        es que puede ser aplicable, con ciertas modificaciones, a sectores ajenos a la industria,
+                        pudiendo ser introducido en mointorización en restaurantes e incluso en áreas de la domótica.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3" style="">
+                <center>
+                    <!--<div id="temporizador"></div>-->
+                    <p style="color:#e40a0a" ;>OFERTA ESPECIAL!!!</p>
+                    <p style="columns: #000000;" ;>Valor del producto:</p>
+                    <h2>
+                        <p style="columns: #000000;" ;>Bs. 3500!!</p>
+                    </h2>
+                </center>
+                <br><br>
+                <p style="columns: #000000;" ;>Número de contacto: +591 72505574</p>
+                <p style="columns: #000000;" ;>Correo electrónico: jetus1999@gmail.com</p>
+                <p style="columns: #000000;" ;>Jesús Gonzales</p>
+
+
+                <!-- <form onsubmit="fntAddHtmlPersona(this); return false;">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo:</label>
+                        <input name="nombre" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="cel">Número celular:</label>
+                        <input name="cel" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="com">Comentarios:</label>
+                        <input name="com" type="text" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </form>-->
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/funciones.js"></script>
+</body>
+
+</html>
